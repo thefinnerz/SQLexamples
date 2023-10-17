@@ -11,4 +11,4 @@ CREATE PROCEDURE dorepeat(p1 INT)
          UNTIL @x > p1 END REPEAT;
        END;
        
-CALL dorepeat(10)
+CALL dorepeat(10) 
