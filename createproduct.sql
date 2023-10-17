@@ -1,3 +1,5 @@
+DELETE FROM Product WHERE product_id > 8;
+
 INSERT INTO Product
     (product_name, colour, standard_cost, list_price, date_available)
 VALUES

@@ -1,5 +1,7 @@
 Delimiter //
 
+DROP procedure dorepeat;
+
 CREATE PROCEDURE dorepeat(p1 INT)
        BEGIN
          SET @x = 0;
